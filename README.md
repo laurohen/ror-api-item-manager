@@ -55,3 +55,20 @@ POST => localhost:3001/api/items
         "status": int,
     }
 ```
+
+- EDIT ITEM
+
+ ```sh
+PUT => localhost:3001/api/items/:id
+```
+
+```sh
+    {
+        "title": "string",
+        "description": "string",
+        "archived": bool,
+        "readed": bool,
+        "executed": bool,
+        "status": int,
+    }
+```
