@@ -38,3 +38,20 @@ rails s -p 3001
 - I got my aggregator api running on `localhost:3001`.
 
 ---
+
+- CREATE ITEM
+
+ ```sh
+POST => localhost:3001/api/items
+```
+
+```sh
+    {
+        "title": "string",
+        "description": "string",
+        "archived": bool,
+        "readed": bool,
+        "executed": bool,
+        "status": int,
+    }
+```
