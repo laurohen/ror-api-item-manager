@@ -72,3 +72,9 @@ PUT => localhost:3001/api/items/:id
         "status": int,
     }
 ```
+
+- LIST ITEM
+
+ ```sh
+GET => localhost:3001/api/items/:id
+```
