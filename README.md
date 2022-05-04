@@ -79,8 +79,26 @@ PUT => localhost:3001/api/items/:id
 GET => localhost:3001/api/items/:id
 ```
 
+- LIST ITEMS
+
+ ```sh
+GET => localhost:3001/api/items
+```
+
 - DELETE ITEM
 
  ```sh
 DELETE => localhost:3001/api/items/:id
+```
+
+- LIST ITEMS PAGINATION
+
+ ```sh
+GET => localhost:3001/api/items?page=:value&per_page_item=:value
+```
+
+- LIST ITEMS FOR STATUS
+
+ ```sh
+GET => localhost:3001/api/items/listforstatus/:status
 ```
