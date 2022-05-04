@@ -78,3 +78,9 @@ PUT => localhost:3001/api/items/:id
  ```sh
 GET => localhost:3001/api/items/:id
 ```
+
+- DELETE ITEM
+
+ ```sh
+DELETE => localhost:3001/api/items/:id
+```
